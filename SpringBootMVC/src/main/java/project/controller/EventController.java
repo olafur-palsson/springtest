@@ -15,12 +15,13 @@ import project.persistence.entities.Player;
 import project.persistence.entities.User;
 import project.service.*;
 import project.persistence.repositories.*;
+import org.springframework.web.bind.annotation.RestController;
 
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
-@Controller
+@RestController
 public class EventController {
 
   // Instance Variables

@@ -10,8 +10,9 @@ import project.persistence.repositories.UserRepository;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class LoginController {
 
   @Autowired

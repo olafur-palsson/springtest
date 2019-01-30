@@ -9,13 +9,14 @@ import project.persistence.entities.Player;
 import project.persistence.entities.User;
 import project.persistence.entities.Team;
 import project.persistence.repositories.*;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 
 
-@Controller
+@RestController
 public class PlayerController {
 
   @Autowired

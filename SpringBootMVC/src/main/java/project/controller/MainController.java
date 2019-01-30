@@ -11,12 +11,13 @@ import project.persistence.entities.User;
 import project.persistence.repositories.*;
 import project.persistence.entities.Player;
 import project.controller.TeamController;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 
-@Controller
+@RestController
 public class MainController {
 
   @Autowired
